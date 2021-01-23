@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./assets/background.png');
+}
+
+#arrow-left, #more-vert, #invite-message{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-container{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1050px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container .iphone-bg{
+    width: 300px;
+    height: 640px;
+    padding: 12px;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 2.5px 3.6px rgba(0, 0, 0, 0.024), 0 6.9px 10px rgba(0, 0, 0, 0.035), 0 16.6px 24.1px rgba(0, 0, 0, 0.046), 0 55px 80px rgba(0, 0, 0, 0.07);
+}
+
+.main-container .iphone-bg .iphone-bg-two{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: #F5F3F8;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents{
+    width: 100%;
+    height: 100%;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .header-bg{
+    width: 100%;
+    height: 12%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: linear-gradient(to right, #8838FF, #E942FF);
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .header-bg .header-contents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    justify-content: space-between;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .header-bg .header-contents .back-icon-and-user{
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .header-bg .header-contents .back-icon-and-user .user-photo{
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('./assets/avatar.jpg');
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .header-bg .header-contents .back-icon-and-user .user{
+    margin-left: 10px;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .header-bg .header-contents .back-icon-and-user .user .username{
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Rubik',sans-serif;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .header-bg .header-contents .back-icon-and-user .user .available{
+    font-size: 10px;
+    font-weight: 400;
+    color: #D89EFF;
+    font-family: 'Rubik',sans-serif;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content{
+    width: 100%;
+    height: 88%;
+    position: relative;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-one{
+    position: absolute;
+    padding: 10px;
+    height: 50px;
+    width: 62%;
+    left: 5%;
+    top: 4%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #EDE5F4;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-one p{
+    font-size: 11px;
+    color: #9241C8;
+    line-height: 15px;
+    font-family: 'Rubik',sans-serif;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-two{
+    position: absolute;
+    padding: 10px;
+    height: 50px;
+    width: 62%;
+    left: 5%;
+    top: 15%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #EDE5F4;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-two p{
+    font-size: 11px;
+    color: #9241C8;
+    line-height: 15px;
+    font-family: 'Rubik',sans-serif;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .dog-photos{
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    right: 5%;
+    top: 28%;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .dog-photos .photo-1{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url('./assets/dog-image-1.jpg');
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .dog-photos .photo-2{
+    width: 45px;
+    height: 45px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url('./assets/dog-image-2.jpg');
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .dog-photos .photo-3{
+    width: 45px;
+    height: 45px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url('./assets/dog-image-3.jpg');
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-three{
+    position: absolute;
+    padding: 10px;
+    height: 50px;
+    width: 65%;
+    right: 5%;
+    top: 38%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5.3px rgba(0, 0, 0, 0.016), 0 6.7px 17.9px rgba(0, 0, 0, 0.024), 0 30px 80px rgba(0, 0, 0, 0.04);
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-three p{
+    font-size: 11px;
+    color: #1a1a1a;
+    line-height: 15px;
+    font-family: 'Rubik';
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-four{
+    position: absolute;
+    padding: 10px;
+    height: 50px;
+    width: 62%;
+    left: 5%;
+    top: 52%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #EDE5F4;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .message-four p{
+    font-size: 11px;
+    color: #9241C8;
+    line-height: 15px;
+    font-family: 'Rubik';
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-1{
+    position: absolute;
+    padding: 10px;
+    height: 50px;
+    width: 70%;
+    left: 5%;
+    top: 63%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+    border-bottom-left-radius: 5px;
+    background: linear-gradient(to right, #E942FF,#8838FF);
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-1 .radio-and-time{
+    display: flex;
+    align-items: center;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-1 .radio-and-time .radio-button{
+    width: 15px;
+    height: 15px;
+    border: solid 1px #fff;
+    border-radius: 50px;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-1 .radio-and-time p{
+    color: #fff;
+    font-size: 10px;
+    margin-left: 10px;
+    font-family: 'Rubik';
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-1 .price{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Rubik';
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-2{
+    position: absolute;
+    padding: 10px;
+    height: 50px;
+    width: 70%;
+    left: 5%;
+    top: 74%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+    border-bottom-left-radius: 5px;
+    background: linear-gradient(to right, #E942FF,#8838FF);
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-2 .radio-and-time{
+    display: flex;
+    align-items: center;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-2 .radio-and-time .radio-button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: solid 1px #fff;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-2 .radio-and-time p{
+    color: #fff;
+    font-size: 10px;
+    margin-left: 10px;
+    font-family: 'Rubik';
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .choose-button-2 .price{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Rubik';
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .input-container{
+    position: absolute;
+    width: 90%;
+    bottom: 4%;
+    left: 5%;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .input-container .input-content{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .input-container .input-content .input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    color: #1a1a1a;
+    border: transparent;
+    border-radius: 100px;
+    padding:0px 25% 0px 10%;
+    box-shadow: 0 2px 5.3px rgba(0, 0, 0, 0.016), 0 6.7px 17.9px rgba(0, 0, 0, 0.024), 0 30px 80px rgba(0, 0, 0, 0.04);
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .input-container .input-content .input::placeholder{
+    color: #C6CACD;
+    font-family: 'Rubik';
+}
+
+.main-container .iphone-bg .iphone-bg-two .contents .chat-content .input-container .input-content .icon-container{
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: #3E2753;
+}
+
+.main-container .title-and-paragraph{
+    width: 50%;
+}
+
+.main-container .title-and-paragraph h1{
+    color: #3E2753;
+    font-family: 'Rubik';
+    margin-bottom: 20px;
+}
+
+.main-container .title-and-paragraph p {
+    color: #A39DAA;
+    line-height: 25px;
+    text-align: justify;
+    font-family: 'Rubik';
+}
+
+@media(max-width: 1200px){
+    body{
+        height: 100%;
+    }
+
+    .main-container{
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .iphone-bg{
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .title-and-paragraph{
+        text-align: center;
+        margin-bottom: 40px;
+    }   
+}

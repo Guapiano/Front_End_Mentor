@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree';
+}
+
+.main_container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/*Início do header*/
+
+.main_header{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url('./images/bg-header-desktop.png');
+}
+
+.header_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_logo{
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+.header_title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+
+.header_paragraph{
+    width: 45%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: hsl(201, 11%, 66%);
+}
+
+.header_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_buttons button{
+    height: 50px;
+    width: 130px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 0px 15px 0px 15px;
+}
+
+.header_button_one{
+    color: #fff;
+    cursor: pointer;
+    background-color: hsl(171, 66%, 44%);
+}
+
+.header_button_two{
+    color: #fff;
+    cursor: pointer;
+    background-color: hsl(233, 100%, 69%);
+}
+
+/*Início do about us*/
+
+.about_us{
+    width: 100%;
+    height: 700px;
+}
+
+.about_us_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_us_title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+
+.about_us_paragraph{
+    width: 53%;
+    text-align: center;
+    margin-bottom: 50px;
+    color: hsl(201, 11%, 66%);
+}
+
+.img_and_specials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    justify-content: space-evenly;  
+}
+
+.computer_image{
+    width: 550px;
+}
+
+.specials{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 15px;
+}
+
+.special_one{
+    width: 60%;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+.special_one_title{
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: hsl(210, 10%, 33%);
+}
+
+.special_one_paragraph{
+    font-size: 16px;
+    line-height: 25px;
+    color: hsl(201, 11%, 66%);
+}
+
+.special_two{
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.special_two_title{
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: hsl(210, 10%, 33%);
+}
+
+.special_two_paragraph{
+    font-size: 16px;
+    line-height: 25px;
+    color: hsl(201, 11%, 66%);
+}
+
+.special_three{
+    width: 60%;
+}
+
+.special_three_title{
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: hsl(210, 10%, 33%);
+}
+
+.special_three_paragraph{
+    font-size: 16px;
+    line-height: 25px;
+    color: hsl(201, 11%, 66%);
+}
+
+/*Início do access anywhere*/
+
+.access_anywhere{
+    width: 100%;
+    height: 700px;
+}
+
+.access_anywhere_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.access_title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+
+.access_paragraph{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 70px;
+    color: hsl(201, 11%, 66%);
+}
+
+.device_image{
+    width: 750px;
+}
+
+/*Início do supercharge*/
+
+.supercharge_container{
+    width: 100%;
+    height: 450px;
+}
+
+.supercharge_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.supercharge_title{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+
+.supercharge_paragraph{
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: hsl(201, 11%, 66%);
+}
+
+.items_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blacklists{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blacklists_img{
+    margin-bottom: 20px;
+}
+
+.blacklists_title{
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.blacklists_paragraph{
+    width: 85%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.snippets{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.snippets_img{
+    margin-bottom: 20px;
+}
+
+.snippets_title{   
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.snippets_paragraph{
+    width: 70%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.preview{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preview_img{
+    margin-bottom: 20px;
+}
+
+.preview_title{   
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.preview_paragraph{
+    width: 75%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+/*Início das companys*/
+
+.companys_container{
+    width: 100%;
+    height: 200px;
+}
+
+.companys_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Início do clipboard*/
+
+.clipboard_container{
+    width: 100%;
+    height: 450px;
+}
+
+.clipboard_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clipboard_title{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+
+.clipboard_paragraph{
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    color:  hsl(201, 11%, 66%);
+}
+
+.clipboard_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clipboard_buttons button{
+    height: 50px;
+    width: 130px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 0px 15px 0px 15px;
+}
+
+.clipboard_btn_1{
+    color: #fff;
+    cursor: pointer;
+    background-color: hsl(171, 66%, 44%); 
+}
+
+.clipboard_btn_2{
+    color: #fff;
+    cursor: pointer;
+    background-color: hsl(233, 100%, 69%);
+}
+
+/*Início do footer*/
+
+.main_footer{
+    width: 100%;
+    height: 150px;
+    background-color: #f5f6f8;
+}
+
+.first_footer{
+    width: 100%;
+    height: 100%;
+}
+
+.footer_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logo{
+    width: 50px;
+}
+
+.ul_list{
+    display: flex;
+}
+
+.ul_list li{
+    padding: 10px;
+}
+
+.ul_list li a{
+    color: hsl(210, 10%, 33%);
+}
+
+.ul_list li a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+/*Início das medias queries*/
+
+@media(max-width: 420px){
+    .main_header{
+        height: 500px;
+    }
+    .header_title{
+        font-size: 20px;
+    }
+    .header_paragraph{
+        width: 80%;
+        font-size: 14px;
+    }
+    .about_us{
+        height: 815px;
+    }
+    .about_us_title{
+        font-size: 20px;
+    }
+    .about_us_paragraph{
+        width: 80%;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    .img_and_specials{
+        padding: 0px; 
+        flex-direction: column;
+    }
+    .computer_image{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .specials{
+        width: 100%;
+        padding: 0px;
+    }
+    .special_one{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .special_one_paragraph{
+        width: 100%;
+        font-size: 14px;
+        align-self: center;
+    }
+    .special_two{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 30px;     
+    }
+    .special_two_paragraph{
+        width: 100%;
+        font-size: 14px;
+        align-self: center;
+    }
+    .special_three{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .special_three_paragraph{
+        width: 100%;
+        font-size: 14px;
+        align-self: center;
+    }
+    .access_anywhere{
+        height: 500px;
+    }
+    .access_title{
+        font-size: 20px;
+    }
+    .access_paragraph{
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .device_image{
+        width: 380px;
+    }
+    .supercharge_container{
+        height: 650px;
+    }
+    .supercharge_title{
+        font-size: 20px;
+    }
+    .supercharge_paragraph{
+        font-size: 14px;
+    }
+    .items_container{
+        flex-direction: column;
+    }
+    .blacklists{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .blacklists_paragraph{
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .snippets{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .snippets_paragraph{
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .preview{
+        width: 100%;
+    }
+    .preview_paragraph{
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .companys_container{
+        height: 550px;
+    }
+    .companys_contents{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .companys_logo{
+        width: 100px;
+    }
+    .clipboard_container{
+        height: 280px;
+    }
+    .clipboard_title{
+        font-size: 20px;
+    }
+    .clipboard_paragraph{
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .main_footer{
+        height: 150px;
+    }
+    .first_footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_contents{
+        height: 90%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer_logo{
+        width: 45px;
+    }
+    .ul_list li a{
+        font-size: 16px;        
+    }
+}
