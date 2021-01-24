@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.first_section{
+    width: 100%;
+    height: 900px;
+    background-color:hsl(217, 28%, 15%);
+}
+
+.contents{
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.main_header{
+    width: 100%;
+    height: 100px;
+}
+
+.hd_contents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hd_logo{
+    width: 150px;
+}
+
+.ul_lst{
+    display: flex;
+}
+
+.ul_lst a{
+    color: #cccccc;
+    padding: 0px 0px 0px 15px;
+}
+
+.img_and_items{
+    width: 100%;
+    height: 800px;
+}
+
+.img_and_items_contents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro_img{
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.first_section h1{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.first_section p{
+    width: 40%;
+    color: #cccccc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn_1{
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50px;
+    font-family: 'Raleway',sans-serif;
+    background: linear-gradient(to right,  hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+/*Início da segunda section.*/
+
+.second_section{
+    width: 100%;
+    height: 650px;
+    background-color:hsl(218, 28%, 13%);
+}
+
+.contents_2{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line_1{
+    display: flex;
+    align-items: center;
+}
+
+.main_item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_item img{
+    margin-bottom: 20px;
+}
+
+.main_item h3{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+}
+
+.main_item p{
+    width: 70%;
+    color: #cccccc;
+    text-align: center;
+}
+
+.main_item_2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_item_2 img{
+    margin-bottom: 20px;
+}
+
+.main_item_2 h3{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+}
+
+.main_item_2 p{
+    width: 65%;
+    color: #cccccc;
+    text-align: center;
+}
+
+.line_2{
+    display: flex;
+    align-items: center;
+}
+
+.main_item_3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_item_3 img{
+    margin-bottom: 20px;
+}
+
+.main_item_3 h3{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+}
+
+.main_item_3 p{
+    width: 75%;
+    color: #cccccc;
+    text-align: center;
+}
+
+.main_item_4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_item_4 img{
+    margin-bottom: 20px;
+}
+
+.main_item_4 h3{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+}
+
+.main_item_4 p{
+    width: 60%;
+    color: #cccccc;
+    text-align: center;
+}
+
+/*Início da terceira section.*/
+
+.third_section{
+    width: 100%;
+    height: 550px;
+    background-color:hsl(218, 28%, 13%);
+}
+
+.contents_3{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stay_img{
+    width: 500px;
+}
+
+.texts_side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texts_side h1{
+    width: 60%;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+}
+
+.contents_3_p_1{
+    width: 85%;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+.contents_3_p_2{
+    width: 95%;
+    color: #cccccc;
+}
+
+.fylo_link{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    border-bottom-color: hsl(176, 68%, 64%);
+}
+
+.fylo_link a{
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    border-bottom: 1px solid;
+    color: hsl(176, 68%, 64%);
+}
+
+.arrow_icon{
+    margin-left: 5px;
+}
