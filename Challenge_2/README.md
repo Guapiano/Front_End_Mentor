@@ -2,5 +2,5 @@
 
 ### `Project for Web`
 
-![Chat_app](https://github.com/Guapiano/Chat_App_CSS_Illustration/blob/master/screenshots/screenshot.png)
+![Chat_app](https://github.com/Guapiano/Front_End_Mentor/blob/master/Challenge_2/screenshots/screenshot.png)
 
