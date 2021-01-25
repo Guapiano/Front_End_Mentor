@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.first_section{
+    width: 100%;
+    height: 695px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/background.png');
+}
+
+.contents{
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hd_bg{
+    height: 70px;
+    width: 100%;
+}
+
+.hd_contents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul_list{
+    display: flex;
+    align-items: center;
+}
+
+.ul_list a{
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color:hsl(228, 39%, 23%);
+}
+
+.hd_button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: hsl(12, 88%, 59%);
+}
+
+.main_contents{
+    width: 100%;
+    height: 625px;
+}
+
+.main_contents_contents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texts_and_btn{
+    width: 50%;  
+}
+
+.texts_and_btn h1{
+    width: 90%;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: hsl(228, 39%, 23%);
+}
+
+.texts_and_btn p{
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: hsl(227, 12%, 61%);
+}
+
+.contents_btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: hsl(12, 88%, 59%);
+}
+
+.illustration_intro{
+    width: 500px;
+}
+
+.second_section{
+    width: 100%;
+    height: 695px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/second_background.png');
+}
+
+.scnd_contents{
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.left_side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.scnd_title{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: hsl(228, 39%, 23%);
+}
+
+.scnd_p{
+    width: 85%;
+    font-size: 16px;
+    text-align: justify;
+    color: hsl(227, 12%, 61%);
+}
+
+.right_side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_1{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+    align-content: center;
+    padding: 0px 0px 0px 40px;
+}
+
+.item_2{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+    align-content: center;
+    padding: 0px 0px 0px 40px;
+}
+
+.item_3{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    padding: 0px 0px 0px 40px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(12, 88%, 59%);
+}
+
+.circle p{
+    color: #fff;
+    font-weight: 700;
+}
+
+.texts_rs{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts_rs h4{
+    margin-bottom: 10px;
+    color: hsl(228, 39%, 23%);
+}
+
+.texts_rs p{
+    font-size: 14px;
+    text-align: justify;
+    color: hsl(227, 12%, 61%);
+}
+
