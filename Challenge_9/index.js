@@ -23,7 +23,7 @@ const onSubmit = () => {
         if(name_input.value === ""){
             let paragraph = document.createElement('p');
             paragraph.style.color = 'hsl(0, 100%, 74%)';
-            paragraph.innerText = 'Você precisa preencher este campo.';
+            paragraph.innerText = 'You need to fill in this field.';
             paragraph.style.marginTop = '10px';
             paragraph.style.fontSize = '10px';
             paragraph.style.textAlign = 'end';
@@ -35,7 +35,7 @@ const onSubmit = () => {
         if(last_name_input.value === ""){
             let paragraph = document.createElement('p');
             paragraph.style.color = 'hsl(0, 100%, 74%)';
-            paragraph.innerText = 'Você precisa preencher este campo.';
+            paragraph.innerText = 'You need to fill in this field.';
             paragraph.style.marginTop = '10px';
             paragraph.style.fontSize = '10px';
             paragraph.style.textAlign = 'end';
@@ -47,7 +47,7 @@ const onSubmit = () => {
         if(email_input.value === ""){
             let paragraph = document.createElement('p');
             paragraph.style.color = 'hsl(0, 100%, 74%)';
-            paragraph.innerText = 'Você precisa preencher este campo.';
+            paragraph.innerText = 'You need to fill in this field.';
             paragraph.style.marginTop = '10px';
             paragraph.style.fontSize = '10px';
             paragraph.style.textAlign = 'end';
@@ -59,7 +59,7 @@ const onSubmit = () => {
         if(password_input.value === ""){
             let paragraph = document.createElement('p');
             paragraph.style.color = 'hsl(0, 100%, 74%)';
-            paragraph.innerText = 'Você precisa preencher este campo.';
+            paragraph.innerText = 'You need to fill in this field.';
             paragraph.style.marginTop = '10px';
             paragraph.style.fontSize = '10px';
             paragraph.style.textAlign = 'end';
